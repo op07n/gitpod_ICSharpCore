@@ -5,4 +5,4 @@ ports:
   onOpen: open-browser
 tasks:
 - init: chmod +x /workspace/gitpod_simplejupyter/run.sh && /workspace/gitpod_simplejupyter/run.sh
-  command: cp -r /workspace/gitpod_simplejupyter/.jupyter /home/gitpod/ && /workspace/gitpod_simplejupyter/jupyter notebook
+  command: cp -r /workspace/gitpod_simplejupyter/.jupyter /home/gitpod/ && jupyter notebook
