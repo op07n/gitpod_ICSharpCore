@@ -4,5 +4,5 @@ ports:
 - port: 8888
   onOpen: open-browser
 tasks:
-- init: /workspace/gitpod_ICSharpCore/run.sh
-  command: cp -r /workspace/gitpod_ICSharpCore/.jupyter /home/gitpod/
+- init: chmod +x /workspace/gitpod_simplejupyter/run.sh && /workspace/gitpod_simplejupyter/run.sh
+  command: cp -r /workspace/gitpod_simplejupyter/.jupyter /home/gitpod/
